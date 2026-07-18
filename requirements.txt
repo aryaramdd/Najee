@@ -1,6 +1,5 @@
-curl_cffi>=0.7.2
+cloudscraper>=1.2.71
 requests>=2.31.0
 pycryptodome>=3.20.0
-cryptography>=41.0.0
 numpy>=1.24.0
 Pillow>=10.0.0

@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-from curl_cffi import requests as cffi_requests
+import cloudscraper as cffi_requests
 import requests as stdlib_requests
 import re, urllib.parse, hashlib, random, traceback, uuid, json, time, base64, math, io, struct
 import threading
@@ -8,8 +8,6 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from collections import deque
 from Crypto.Cipher import AES
 from Crypto.Util import Counter
-from cryptography.hazmat.primitives.ciphers import Cipher, algorithms, modes
-from cryptography.hazmat.backends import default_backend
 import numpy as np
 from PIL import Image
 
@@ -670,7 +668,7 @@ def _random_fingerprint():
 
 
 def _build_session(fp):
-    session = cffi_requests.Session(impersonate=IMPERSONATE_MAP[fp["chrome_version"]])
+    session = cffi_requests.create_scraper()
     session.headers.update({
         "User-Agent":                fp["user_agent"],
         "Accept":                    "text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7",
