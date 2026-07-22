@@ -1,0 +1,235 @@
+local Info = {
+    Function = {
+        Source = "ReplicatedStorage.ClientModules.ReplicaClient",
+        Type = "Luau function",
+        Name = "",
+        Address = "function: 0xa2b01fa5931ab0e5",
+        Protos = {},
+        Upvalues = {
+            {
+                {
+                    Maid = {
+                        is_cleaned = false,
+                        tokens = {},
+                        key = {}
+                    },
+                    Tags = {
+                        UserId = 11268294636
+                    },
+                    Id = 1,
+                    Data = {
+                        Inventory = {
+                            Gnomes = {},
+                            PetTeleporters = {},
+                            Birds = {},
+                            Sprinklers = {
+                                ["Super Sprinkler"] = 703
+                            },
+                            Mushrooms = {},
+                            Eggs = {},
+                            Pets = {},
+                            Rakes = {},
+                            Raccoons = {},
+                            MagicDice = {},
+                            WeatherStaffs = {},
+                            Teleporters = {},
+                            Crates = {
+                                ["Ladder Crate"] = 11040,
+                                ["Roleplay Crate"] = 278
+                            },
+                            SeedPacks = {},
+                            Props = {
+                                ["Gold Ladder"] = 129,
+                                Ladder = 250,
+                                ["Beach Towel"] = 5,
+                                ["Rainbow Ladder"] = 76,
+                                Carpet = 3,
+                                ["Dark Oak Ladder"] = 201,
+                                Clock = 3,
+                                ["Wood Floor"] = 1,
+                                Bookcase = 8,
+                                ["Water Fountain"] = 2
+                            },
+                            Seeds = {
+                                Rainbow = 105,
+                                Mega = 22,
+                                Gold = 40
+                            },
+                            Ladders = {},
+                            WateringCans = {
+                                ["Super Watering Can"] = 535
+                            },
+                            StrawberrySnipers = {},
+                            Trowels = {
+                                Trowel = 750
+                            },
+                            Flashbangs = {},
+                            Magnets = {}
+                        },
+                        PurchasedThisRestock = {
+                            Seeds = {},
+                            Crates = {},
+                            Gears = {}
+                        },
+                        OwnedExpansions = 0,
+                        PetHuntEscrow = false,
+                        HasWateredPlants = false,
+                        OwnedFenceSkins = "Default+",
+                        Tokens = 0,
+                        HasShoveledPlant = false,
+                        Sheckles = 1
+                    },
+                    set_listeners = {
+                        OwnedFenceSkins = {
+                            head = {
+                                IsConnected = true,
+                                listener = function()
+                                    -- Name: Anonymous Function | Line: 720
+                                    -- Upvalues: 2
+                                    -- Function Hash: 3ee11e07511b483e75f446b23cf5691207a1f39c05f079be004a872416393709664c9767eb67990732784b49f08133e1
+                                    -- LuaEncode: Unable to serialize function
+                                    return
+                                end,
+                                signal = {--[[LuaEncode: Duplicate reference]]}
+                            }
+                        },
+                        Tokens = {
+                            head = {
+                                IsConnected = true,
+                                listener = function(arg1, arg2)
+                                    -- Name: Anonymous Function | Line: 195
+                                    -- Upvalues: 7
+                                    -- Function Hash: 208f1eda41b4768222734630c002aa3e0cc595ba82f37d18d42ec9306f7121dcbfdc955d77687eeac872a224fc908d24
+                                    -- LuaEncode: Unable to serialize function
+                                    return
+                                end,
+                                signal = {--[[LuaEncode: Duplicate reference]]}
+                            }
+                        },
+                        OwnedExpansions = {
+                            head = {
+                                IsConnected = true,
+                                listener = function()
+                                    -- Name: updateExpandSign | Line: 438
+                                    -- Upvalues: 7
+                                    -- Function Hash: ce62cc2ec600271b7c0b2c78f56659ec2501b27277067a6f8943e77d4610108761a16745a78583dea67361b8e1d27d89
+                                    -- LuaEncode: Unable to serialize function
+                                    return
+                                end,
+                                signal = {--[[LuaEncode: Duplicate reference]]}
+                            }
+                        }
+                    },
+                    changed_listeners = {
+                        head = {
+                            IsConnected = true,
+                            listener = function(arg1, arg2)
+                                -- Name: Anonymous Function | Line: 287
+                                -- Upvalues: 6
+                                -- Function Hash: 611373ef4c0cff40134d9b11f4c84e42e2f49c9036d524fb58bd846e5d77db4f09524ac732b2075eebaeaeb8a9517a4e
+                                -- LuaEncode: Unable to serialize function
+                                return
+                            end,
+                            next = {
+                                IsConnected = true,
+                                listener = function(arg1, arg2)
+                                    -- Name: Anonymous Function | Line: 543
+                                    -- Upvalues: 4
+                                    -- Function Hash: 8330d486760653a9228e8337fcf5c0c565e3af54200f82a3f854b430854dfb958d1bb472285aacec312ed8cd190f3c97
+                                    -- LuaEncode: Unable to serialize function
+                                    return
+                                end,
+                                next = {
+                                    IsConnected = true,
+                                    listener = function(arg1, arg2)
+                                        -- Name: Anonymous Function | Line: 543
+                                        -- Upvalues: 4
+                                        -- Function Hash: 8330d486760653a9228e8337fcf5c0c565e3af54200f82a3f854b430854dfb958d1bb472285aacec312ed8cd190f3c97
+                                        -- LuaEncode: Unable to serialize function
+                                        return
+                                    end,
+                                    next = {
+                                        IsConnected = true,
+                                        listener = function(arg1, arg2)
+                                            -- Name: Anonymous Function | Line: 543
+                                            -- Upvalues: 4
+                                            -- Function Hash: 8330d486760653a9228e8337fcf5c0c565e3af54200f82a3f854b430854dfb958d1bb472285aacec312ed8cd190f3c97
+                                            -- LuaEncode: Unable to serialize function
+                                            return
+                                        end,
+                                        next = {
+                                            IsConnected = true,
+                                            listener = function(arg1, arg2)
+                                                -- Name: Anonymous Function | Line: 1246
+                                                -- Upvalues: 5
+                                                -- Function Hash: 476df8e28ec92454cde77edbf8fc5bd5b9ca563f015206fef5e1814b7d584f3fa6afd338bcea05e672b4de968d062c29
+                                                -- LuaEncode: Unable to serialize function
+                                                return
+                                            end,
+                                            signal = {--[[LuaEncode: Duplicate reference]]}
+                                        },
+                                        signal = {--[[LuaEncode: Duplicate reference]]}
+                                    },
+                                    signal = {--[[LuaEncode: Duplicate reference]]}
+                                },
+                                signal = {--[[LuaEncode: Duplicate reference]]}
+                            },
+                            signal = {--[[LuaEncode: Duplicate reference]]}
+                        }
+                    },
+                    Token = "PlayerState",
+                    self_creation = {
+                        "PlayerState",
+                        {--[[LuaEncode: Duplicate reference]]},
+                        {--[[LuaEncode: Duplicate reference]]},
+                        0
+                    },
+                    OnClientEvent = {},
+                    Children = {},
+                    write_listeners = {}
+                }
+            },
+            {},
+            false
+        },
+        Arguments = 1,
+        Constants = {
+            "error",
+            [3] = "[%*]: Received update for missing replica [Id:%*]",
+            [4] = "script",
+            [6] = "Name",
+            [7] = "format",
+            [8] = "pcall",
+            [10] = "Set",
+            [11] = "[%*]: Error while updating replica:\n%*\n",
+            [12] = "Identify"
+        }
+    },
+    Script = game:GetService("ReplicatedStorage").ClientModules.ReplicaClient
+}
+
+
+
+
+local args = {
+	buffer.fromstring("\133\000\"\fLadder Crate")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("SharedModules"):WaitForChild("Packet"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+local args = {
+	buffer.fromstring("\133\000$\fLadder Crate")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("SharedModules"):WaitForChild("Packet"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+
+local args = {
+	buffer.fromstring("\133\000.\014Roleplay Crate")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("SharedModules"):WaitForChild("Packet"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
+
+local args = {
+	buffer.fromstring("\133\0004\014Roleplay Crate")
+}
+game:GetService("ReplicatedStorage"):WaitForChild("SharedModules"):WaitForChild("Packet"):WaitForChild("RemoteEvent"):FireServer(unpack(args))
+
